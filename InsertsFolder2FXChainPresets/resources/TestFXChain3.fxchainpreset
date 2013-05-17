@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FxChainPreset>
+   <member name="MediaBay">
+      <list name="PAttr" type="obj">
+         <obj class="StMedia::PStringIDMediaAttribute" ID="4130621632">
+            <string name="ID" value="MediaType"/>
+            <int name="Type" value="8"/>
+            <int name="Flags" value="2"/>
+            <string name="String" value="FxChainPreset" wide="true"/>
+         </obj>
+      </list>
+   </member>
+   <member name="Folder">
+      <int name="Bypass" value="0"/>
+      <int name="SeparationPosition" value="6"/>
+      <list name="Slot" type="list">
+         <item>
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
+            <member name="Plugin">
+               <member name="Plugin UID">
+                  <string name="GUID" value="3B660266B3CA4B57BBD487AE1E6C0D2A" wide="true"/>
+               </member>
+               <string name="Plugin Name" value="Gate" wide="true"/>
+               <int name="Audio Input Count" value="2"/>
+               <list name="Audio Input Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Sidechain Bus Id 0" value="4010955"/>
+               <int name="Audio Output Count" value="1"/>
+               <list name="Audio Output Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Event Input Count" value="0"/>
+               <int name="Event Output Count" value="0"/>
+               <bin name="audioComponent">
+						500700007468726573686F6C6400000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						000000000000000000000000CD6C43C061747461636B00000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						000000000000000000000000000000000100000000000080F498194072656C65
+						6173650000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000002000000
+						000000002BCF5C406175746F72656C6561736500000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						00000000000000000D0000000000000000000000686F6C640000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000030000000000000000406F40
+						726D730000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						06000000000000000000000073636F6E00000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						00000000000000000000000007000000000000000000000073636C697374656E
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000900000000000000
+						0000000066696C74657274797065000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						000000000A000000000000000000000063656E74657266726571000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						000000000000000000000000000000000B000000000000000000494071666163
+						746F720000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						000000000000000000000000000000000000000000000000000000000C000000
+						00000000000024406C6976650000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000080000000000000000000000627970617373000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						0000000000000000000000000000000000000000000000000000000000000000
+						00000000000000000000000000000000000000000E0000000000000000000000
+               </bin>
+               <bin name="editController">
+               </bin>
+               <int name="Editor Width" value="320"/>
+               <int name="Editor Height" value="203"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="3B660266B3CA4B57BBD487AE1E6C0D2A-0"/>
+               <string name="Bay Program" value="Clean Lead Vox" wide="true"/>
+               <member name="MediaBay Config">
+                  <string name="defaultsId" value="LoadVSTEffectInternalState_Steinberg Media TechnologiesGate" wide="true"/>
+                  <string name="location" value="All Media/Presets/VST3 Presets/Steinberg Media Technologies" wide="true"/>
+                  <string name="browseRoot" value="All Media/Presets/VST3 Presets/Steinberg Media Technologies" wide="true"/>
+                  <string name="fixedMediaType" value="NameAndRating" wide="true"/>
+                  <string name="windowTitle" value="Load Gate Preset" wide="true"/>
+                  <member name="windowSize">
+                     <int name="H" value="414"/>
+                     <int name="V" value="459"/>
+                  </member>
+                  <member name="windowPosition">
+                     <int name="H" value="753"/>
+                     <int name="V" value="310"/>
+                  </member>
+                  <string name="sortKey" value="FileName" wide="true"/>
+                  <int name="sortInverse" value="0"/>
+                  <int name="filterMethod" value="1"/>
+                  <int name="guiFlags" value="131076"/>
+                  <int name="treeFlags" value="1025"/>
+                  <int name="resultsFlags" value="19"/>
+                  <int name="filterFlags" value="0"/>
+                  <int name="flags" value="18"/>
+                  <obj class="FilterDefaults" name="filterDefaults" ID="1597451760">
+                     <list name="categories" type="obj">
+                        <obj class="CmString" ID="1609461136">
+                           <string name="s" value="MusicalCategory"/>
+                        </obj>
+                        <obj class="CmString" ID="1609461520">
+                           <string name="s" value="MusicalInstrument"/>
+                        </obj>
+                        <obj class="CmString" ID="1601807616">
+                           <string name="s" value="MusicalStyle"/>
+                        </obj>
+                        <obj class="CmString" ID="677462880">
+                           <string name="s" value="MusicalSubStyle"/>
+                        </obj>
+                        <obj class="CmString" ID="677463136">
+                           <string name="s" value="MusicalCharacter"/>
+                        </obj>
+                     </list>
+                     <int name="Flags" value="0"/>
+                  </obj>
+                  <obj class="StMedia::CategoryFilter" name="userFilter" ID="671675520">
+                     <int name="type" value="0"/>
+                     <member name="filters">
+                        <int name="ownership" value="1"/>
+                        <list name="obj" type="obj">
+                           <obj class="StMedia::ValueMatrixFilter" ID="671675360">
+                              <int name="type" value="0"/>
+                              <member name="filters">
+                                 <int name="ownership" value="1"/>
+                                 <list name="obj" type="obj">
+                                    <obj class="StMedia::ValueListFilter" ID="4121181888">
+                                       <string name="attribId" value="MusicalCategory"/>
+                                       <int name="op" value="0"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                    <obj class="StMedia::ValueListFilter" ID="1609438992">
+                                       <string name="attribId" value="MusicalInstrument"/>
+                                       <int name="op" value="5"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                    <obj class="StMedia::ValueListFilter" ID="4121240112">
+                                       <string name="attribId" value="MusicalStyle"/>
+                                       <int name="op" value="0"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                    <obj class="StMedia::ValueListFilter" ID="4121240256">
+                                       <string name="attribId" value="MusicalSubStyle"/>
+                                       <int name="op" value="5"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                    <obj class="StMedia::ValueListFilter" ID="4121240400">
+                                       <string name="attribId" value="MusicalCharacter"/>
+                                       <int name="op" value="5"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                 </list>
+                              </member>
+                           </obj>
+                           <obj class="StMedia::ExtraMultiAttributeFilter" ID="677912400">
+                              <int name="operator" value="9"/>
+                              <member name="attributes">
+                                 <int name="ownership" value="1"/>
+                              </member>
+                              <string name="searchString" value="" wide="true"/>
+                           </obj>
+                           <obj class="StMedia::TypeFilter" ID="673543152">
+                              <member name="types">
+                                 <int name="ownership" value="1"/>
+                              </member>
+                           </obj>
+                           <obj class="StMedia::RatingFilter" ID="671676560">
+                              <int name="type" value="0"/>
+                              <member name="filters">
+                                 <int name="ownership" value="1"/>
+                              </member>
+                           </obj>
+                        </list>
+                     </member>
+                  </obj>
+                  <obj class="CmLinkedList" name="focusPath" ID="4120969488">
+                     <int name="ownership" value="1"/>
+                     <list name="obj" type="obj">
+                        <obj class="CmVariant" ID="4120971360">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120971888">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120971696">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120971744">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120971072">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120970928">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120969584">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120973904">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120972032">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120972176">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="7"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120972128">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="4120971168">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                     </list>
+                  </obj>
+                  <member name="previewerConfig">
+                     <int name="activate" value="1"/>
+                     <int name="contextMode" value="0"/>
+                     <int name="autoplay" value="1"/>
+                     <int name="transportsync" value="0"/>
+                     <int name="cycle" value="0"/>
+                     <float name="commonpreviewvolume" value="0.78908658027648926"/>
+                     <member name="TrackPreset|Instrument">
+                     </member>
+                     <member name="TrackPreset|Midi">
+                     </member>
+                     <member name="VstPreset">
+                     </member>
+                  </member>
+                  <obj class="CmLinkedList" name="selectedMedia" ID="4121109136">
+                     <int name="ownership" value="1"/>
+                     <list name="obj" type="obj">
+                        <obj class="FNPath" ID="677831520">
+                           <string name="Name" value="Clean Lead Vox.vstpreset" wide="true"/>
+                           <string name="Path" value="vstsound:\\9D37CD723BA34B3AAF369A5A36AE8309\VST3 Presets\Steinberg Media Technologies\Gate\" wide="true"/>
+                           <member name="FileType">
+                              <string name="DosType" value="vstpreset" wide="true"/>
+                              <string name="UnixType" value="vstpreset" wide="true"/>
+                              <string name="Name" value="VST3 Preset" wide="true"/>
+                           </member>
+                        </obj>
+                     </list>
+                  </obj>
+                  <string name="configurationName" value="" wide="true"/>
+                  <string name="alternateSkin" value="" wide="true"/>
+                  <string name="fixedSortKey" value="" wide="true"/>
+               </member>
+               <int name="BypassTag" value="4215"/>
+            </member>
+            <member name="Patcher">
+               <list name="Prev Output Connections" type="list">
+                  <item>
+                     <int name="Prev Output Speaker Type" value="1"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Prev Output Speaker Type" value="2"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+               <list name="Input Connections" type="list">
+                  <item>
+                     <int name="Input Speaker Type" value="1"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Input Speaker Type" value="2"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+            </member>
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
+            <int name="SlotType" value="-1"/>
+         </item>
+         <item>
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
+            <member name="Plugin">
+               <member name="Plugin UID">
+                  <string name="GUID" value="56535444534153646565737365722073" wide="true"/>
+               </member>
+               <string name="Plugin Name" value="DeEsser Stereo" wide="true"/>
+               <int name="Audio Input Count" value="1"/>
+               <list name="Audio Input Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Audio Output Count" value="1"/>
+               <list name="Audio Output Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Event Input Count" value="0"/>
+               <int name="Event Output Count" value="0"/>
+               <bin name="audioComponent">
+						000002BE000000030000000144534153736574410000029E585073743C507265
+						7365744368756E6B584D4C547265652076657273696F6E3D2232223E0A093C50
+						7265736574204E616D653D2246656D616C6520566F63616C20284D6172696520
+						4B76616D6D656E29222047656E65726963547970653D2244455352223E0A0909
+						3C5072657365744865616465723E0A0909093C506C7567696E4E616D653E4465
+						45737365723C2F506C7567696E4E616D653E0A0909093C506C7567696E566572
+						73696F6E3E392E312E302E393C2F506C7567696E56657273696F6E3E0A090909
+						3C41637469766553657475703E53455455505F413C2F41637469766553657475
+						703E0A0909093C526561644F6E6C793E747275653C2F526561644F6E6C793E0A
+						09093C2F5072657365744865616465723E0A09093C4D657373616765546F5368
+						656C6C2F3E0A09093C507265736574446174612053657475703D225345545550
+						5F41222053657475704E616D653D2246656D616C6520566F63616C20284D6172
+						6965204B76616D6D656E29223E0A0909093C506172616D657465727320547970
+						653D225265616C576F726C64223E393731352033202D36382E32303030303030
+						30303030303030332037203135203330202A202A202A202A0A302036302E3235
+						393939393939393939393939382031303020312031203C2F506172616D657465
+						72733E0A09093C2F507265736574446174613E0A09093C507265736574446174
+						612053657475703D2253455455505F42223E0A0909093C506172616D65746572
+						7320547970653D225265616C576F726C64223E3535303620322030203720302E
+						35203130202A202A202A202A0A3020332E393820333220312030203C2F506172
+						616D65746572733E0A09093C2F507265736574446174613E0A093C2F50726573
+						65743E0A3C2F5072657365744368756E6B584D4C547265653E0A3134392E3C42
+						79706173732056657273696F6E3D22312E3022204279706173733D2230222F3E
+						0A
+               </bin>
+               <bin name="editController">
+               </bin>
+               <int name="Editor Width" value="327"/>
+               <int name="Editor Height" value="330"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="56535444534153646565737365722073-0"/>
+               <string name="Bay Program" value="Marie Kvammen DeEsser" wide="true"/>
+               <int name="BypassTag" value="10004202"/>
+            </member>
+            <member name="Patcher">
+               <list name="Prev Output Connections" type="list">
+                  <item>
+                     <int name="Prev Output Speaker Type" value="1"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Prev Output Speaker Type" value="2"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+               <list name="Input Connections" type="list">
+                  <item>
+                     <int name="Input Speaker Type" value="1"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Input Speaker Type" value="2"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+            </member>
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
+            <int name="SlotType" value="-1"/>
+         </item>
+         <item>
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
+            <member name="Plugin">
+               <member name="Plugin UID">
+                  <string name="GUID" value="5653544C413253636C612D3261207374" wide="true"/>
+               </member>
+               <string name="Plugin Name" value="CLA-2A Stereo" wide="true"/>
+               <int name="Audio Input Count" value="1"/>
+               <list name="Audio Input Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Audio Output Count" value="1"/>
+               <list name="Audio Output Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Event Input Count" value="0"/>
+               <int name="Event Output Count" value="0"/>
+               <bin name="audioComponent">
+						0000113E00000003000000014C413253736574410000111E585073743C507265
+						7365744368756E6B584D4C547265652076657273696F6E3D2232223E0A093C50
+						7265736574204E616D653D22596F6164204E65766F202D20566F63616C222047
+						656E65726963547970653D224C413241223E0A09093C50726573657448656164
+						65723E0A0909093C506C7567696E4E616D653E434C412D32413C2F506C756769
+						6E4E616D653E0A0909093C506C7567696E56657273696F6E3E392E312E302E39
+						3C2F506C7567696E56657273696F6E3E0A0909093C4163746976655365747570
+						3E53455455505F413C2F41637469766553657475703E0A0909093C526561644F
+						6E6C793E747275653C2F526561644F6E6C793E0A09093C2F5072657365744865
+						616465723E0A09093C4D657373616765546F5368656C6C2F3E0A09093C507265
+						736574446174612053657475703D2253455455505F41222053657475704E616D
+						653D22596F6164204E65766F202D20566F63616C223E0A0909093C506172616D
+						657465727320547970653D225265616C576F726C64223E313020332033203620
+						31203120302030203220360A2A20302E35203120302030203020362032202A0A
+						2A202A202A202A202A202A202A202A202A0A3020302030203120322031203020
+						372E3033393939393939393939393939393120310A302035322E393630303030
+						30303030303030303120312E34372030203020302E3236303030303030303030
+						30303030303120332E3038393939393939393939393939393920302E30373130
+						303030303030303030303030303820302E373130393939393939393939393939
+						39370A2D372E3436393939393939393939393939393820342E32393939393939
+						39393939393939393820302E303032203120372E343139393939393939393939
+						39393939203020302E323030303030303030303030303030303120372E343639
+						3939393939393939393939393820300A2D312E33313030303030303030303030
+						30303120302031202D302E303130303030303030303030303030303037203330
+						203020302031382E31393939393939393939393939393920310A302E37333939
+						3939393939393939393939393920302E30343439393939393939393939393939
+						393820393020302E353730303030303030303030303030303620352E35393939
+						39393939393939393939393620352E3039393939393939393939393939393620
+						2D302E3520302E30383939393939393939393939393939383320310A322E3036
+						39393939393939393939393939382035332E3837393939393939393939393939
+						352033323030302031202D302E30353939393939393939393939393939333520
+						30202D322E3130303030303030303030303030303120313435313020302E3435
+						3630303030303030303030303030320A30202D302E3830303030303030303030
+						303030303034202D302E32393939393939393939393939393939332036302030
+						2E35202D3220362E3520302031303030300A302E35303420302E323030303030
+						30303030303030303030312035202D32302037323220302E3430343030303030
+						3030303030303030332030202D302E3239393939393939393939393939393933
+						20302E31303030303030303030303030303030310A313830202D31322E383030
+						30303030303030303030303120312031203020302E3230303030303030303030
+						3030303030312035303531202D313020310A302E343035303030303030303030
+						3030303033203020302E3230303030303030303030303030303031203020302E
+						313137303030303030303030303030303120302030203020300A302030203020
+						2D302E3230303030303030303030303030303031202D302E3639393939393939
+						393939393939393936202D312E36303030303030303030303030303031202D33
+						2E31303030303030303030303030303031202D36202D382E3930303030303030
+						30303030303030340A2D31312E383030303030303030303030303031202D3133
+						2E383030303030303030303030303031202D31352E3139393939393939393939
+						39393939202D31372E383939393939393939393939393939202D32312E333030
+						303030303030303030303031202D32332E313939393939393939393939393939
+						202D32352E383030303030303030303030303031202D32362E36393939393939
+						3939393939393939202D32392E3830303030303030303030303030310A2D3239
+						2E383030303030303030303030303031202D32392E3830303030303030303030
+						30303031202D32392E383030303030303030303030303031202D32392E383030
+						3030303030303030303030312031202D39382E34303030303030303030303030
+						3036202D312E333939393939393939393939393939392030202D330A2D39302E
+						3730303030303030303030303030332037392E34303030303030303030303030
+						30362031202D31322E362033303020312E33202A202A203130300A3020302030
+						2E3430393939393939393939393939393938203120302E3030303120302E3030
+						303120302E3030303120302E3031303939393939393939393939393939392030
+						2E3031390A302E30323930303030303030303030303030303120302E30353839
+						393939393939393939393939393720302E31323520302E323637303030303030
+						303030303030303220302E343435303030303030303030303030303120302E37
+						3230393939393939393939393939383620312E30323820302E30303120302E30
+						30320A302E3030333030303030303030303030303030303120302E3038313030
+						3030303030303030303030303320302E31363120302E32313139393939393939
+						3939393939393920302E343532303030303030303030303030303120312E3320
+						322E3832303030303030303030303030303320342E3836303030303030303030
+						303030303320382E363330303030303030303030303030380A382E3633303030
+						3030303030303030303038202D35372E37303030303030303030303030303320
+						35302E3230303030303030303030303030332032203235302030203130313731
+						2E3730303030303030303030312036202D32380A2D323720302E323030303030
+						303030303030303030303120302037323020302E343034303030303030303030
+						3030303033203020302030202A0A37323020302E343034303030303030303030
+						3030303033203020302030203C2F506172616D65746572733E0A09093C2F5072
+						65736574446174613E0A09093C507265736574446174612053657475703D2253
+						455455505F42223E0A0909093C506172616D657465727320547970653D225265
+						616C576F726C64223E31302033203320362031203120302030203220360A2A20
+						31203120302030203020362031202A0A2A202A202A202A202A202A202A202A20
+						2A0A3020302030203120322031203020372E3033393939393939393939393939
+						393120310A3020343020312E34372030203020302E3236303030303030303030
+						30303030303120332E3038393939393939393939393939393920302E30373130
+						303030303030303030303030303820302E373130393939393939393939393939
+						39370A2D372E3436393939393939393939393939393820342E32393939393939
+						39393939393939393820302E303032203120372E343139393939393939393939
+						39393939203020302E323030303030303030303030303030303120372E343639
+						3939393939393939393939393820300A2D312E33313030303030303030303030
+						30303120302031202D302E303130303030303030303030303030303037203330
+						203020302031382E31393939393939393939393939393920310A302E37333939
+						3939393939393939393939393920302E30343439393939393939393939393939
+						393820393020302E353730303030303030303030303030303620352E35393939
+						39393939393939393939393620352E3039393939393939393939393939393620
+						2D302E3520302E30383939393939393939393939393939383320310A322E3036
+						39393939393939393939393939382034362033323030302031202D302E303539
+						3939393939393939393939393933352030202D322E3130303030303030303030
+						303030303120313435313020302E34353630303030303030303030303030320A
+						30202D302E3830303030303030303030303030303034202D302E323939393939
+						393939393939393939393320363020302E35202D3220362E3520302031303030
+						310A302E35303420302E32303030303030303030303030303030312035202D32
+						302037323320302E34303430303030303030303030303030332030202D302E32
+						3939393939393939393939393939393320302E31303030303030303030303030
+						303030310A313830202D31322E38303030303030303030303030303120312031
+						203020302E32303030303030303030303030303030312035303531202D313020
+						310A302E3430353030303030303030303030303033203020302E323030303030
+						3030303030303030303031203020302E31313730303030303030303030303030
+						3120302030203020300A3020302030202D302E32303030303030303030303030
+						30303031202D302E3639393939393939393939393939393936202D312E363030
+						30303030303030303030303031202D332E313030303030303030303030303030
+						31202D36202D382E393030303030303030303030303030340A2D31312E383030
+						303030303030303030303031202D31332E383030303030303030303030303031
+						202D31352E313939393939393939393939393939202D31372E38393939393939
+						3939393939393939202D32312E333030303030303030303030303031202D3233
+						2E313939393939393939393939393939202D32352E3830303030303030303030
+						30303031202D32362E363939393939393939393939393939202D32392E383030
+						3030303030303030303030310A2D32392E383030303030303030303030303031
+						202D32392E383030303030303030303030303031202D32392E38303030303030
+						3030303030303031202D32392E3830303030303030303030303030312031202D
+						39382E343030303030303030303030303036202D312E33393939393939393939
+						3939393939392030202D330A2D39302E37303030303030303030303030303320
+						37392E3430303030303030303030303030362031202D31322E36203330302031
+						2E33202A202A2035300A30203020302E34303939393939393939393939393939
+						38203120302E3030303120302E3030303120302E3030303120302E3031303939
+						3939393939393939393939393920302E3031390A302E30323930303030303030
+						303030303030303120302E30353839393939393939393939393939393720302E
+						31323520302E323637303030303030303030303030303220302E343435303030
+						303030303030303030303120302E373230393939393939393939393939383620
+						312E30323820302E30303120302E3030320A302E303033303030303030303030
+						3030303030303120302E30383130303030303030303030303030303320302E31
+						363120302E323131393939393939393939393939393920302E34353230303030
+						3030303030303030303120312E3320322E383230303030303030303030303030
+						3320342E3836303030303030303030303030303320382E363330303030303030
+						303030303030380A382E36333030303030303030303030303038202D35372E37
+						30303030303030303030303030332035302E3230303030303030303030303030
+						3320322032353020302031303137312E3730303030303030303030312036202D
+						32380A2D323720302E3230303030303030303030303030303031203020373230
+						20302E3430343030303030303030303030303033203020302030202A0A373230
+						20302E3430343030303030303030303030303033203020302030203C2F506172
+						616D65746572733E0A09093C2F507265736574446174613E0A093C2F50726573
+						65743E0A3C2F5072657365744368756E6B584D4C547265653E0A000000003C42
+						79706173732056657273696F6E3D22312E3022204279706173733D2230222F3E
+						0A
+               </bin>
+               <bin name="editController">
+               </bin>
+               <int name="Editor Width" value="659"/>
+               <int name="Editor Height" value="271"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="5653544C413253636C612D3261207374-0"/>
+               <string name="Bay Program" value="Yoad Nevo - Vocal" wide="true"/>
+               <member name="MediaBay Config">
+                  <string name="defaultsId" value="LoadVSTEffectInternalState_WavesCLA-2A Stereo" wide="true"/>
+                  <string name="browseRoot" value="All Media/Presets/VST3 Presets/Waves/CLA-2A Stereo" wide="true"/>
+                  <string name="fixedMediaType" value="NameAndRating" wide="true"/>
+                  <string name="windowTitle" value="Load CLA-2A Stereo Preset" wide="true"/>
+                  <member name="windowSize">
+                     <int name="H" value="414"/>
+                     <int name="V" value="459"/>
+                  </member>
+                  <member name="windowPosition">
+                     <int name="H" value="753"/>
+                     <int name="V" value="310"/>
+                  </member>
+                  <string name="sortKey" value="FileName" wide="true"/>
+                  <int name="sortInverse" value="0"/>
+                  <int name="filterMethod" value="1"/>
+                  <int name="guiFlags" value="131076"/>
+                  <int name="treeFlags" value="1025"/>
+                  <int name="resultsFlags" value="19"/>
+                  <int name="filterFlags" value="0"/>
+                  <int name="flags" value="18"/>
+                  <obj class="FilterDefaults" name="filterDefaults" ID="1623981392">
+                     <list name="categories" type="obj">
+                        <obj class="CmString" ID="1623923968">
+                           <string name="s" value="MusicalCategory"/>
+                        </obj>
+                        <obj class="CmString" ID="1623930752">
+                           <string name="s" value="MusicalInstrument"/>
+                        </obj>
+                        <obj class="CmString" ID="1623925184">
+                           <string name="s" value="MusicalStyle"/>
+                        </obj>
+                        <obj class="CmString" ID="1623926592">
+                           <string name="s" value="MusicalSubStyle"/>
+                        </obj>
+                        <obj class="CmString" ID="1623929024">
+                           <string name="s" value="MusicalCharacter"/>
+                        </obj>
+                     </list>
+                     <int name="Flags" value="0"/>
+                  </obj>
+                  <obj class="StMedia::CategoryFilter" name="userFilter" ID="1624045008">
+                     <int name="type" value="0"/>
+                     <member name="filters">
+                        <int name="ownership" value="1"/>
+                        <list name="obj" type="obj">
+                           <obj class="StMedia::ExtraMultiAttributeFilter" ID="756968272">
+                              <int name="operator" value="9"/>
+                              <member name="attributes">
+                                 <int name="ownership" value="1"/>
+                              </member>
+                           </obj>
+                           <obj class="StMedia::TypeFilter" ID="682457072">
+                              <member name="types">
+                                 <int name="ownership" value="1"/>
+                              </member>
+                           </obj>
+                           <obj class="StMedia::RatingFilter" ID="1624044928">
+                              <int name="type" value="0"/>
+                              <member name="filters">
+                                 <int name="ownership" value="1"/>
+                              </member>
+                           </obj>
+                           <obj class="StMedia::ValueMatrixFilter" ID="1624042528">
+                              <int name="type" value="0"/>
+                              <member name="filters">
+                                 <int name="ownership" value="1"/>
+                                 <list name="obj" type="obj">
+                                    <obj class="StMedia::ValueListFilter" ID="1624117408">
+                                       <string name="attribId" value="MusicalCategory"/>
+                                       <int name="op" value="0"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                    <obj class="StMedia::ValueListFilter" ID="1624117552">
+                                       <string name="attribId" value="MusicalInstrument"/>
+                                       <int name="op" value="5"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                    <obj class="StMedia::ValueListFilter" ID="1624117696">
+                                       <string name="attribId" value="MusicalStyle"/>
+                                       <int name="op" value="0"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                    <obj class="StMedia::ValueListFilter" ID="1624117840">
+                                       <string name="attribId" value="MusicalSubStyle"/>
+                                       <int name="op" value="5"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                    <obj class="StMedia::ValueListFilter" ID="1624117984">
+                                       <string name="attribId" value="MusicalCharacter"/>
+                                       <int name="op" value="5"/>
+                                       <member name="values">
+                                          <int name="ownership" value="1"/>
+                                       </member>
+                                    </obj>
+                                 </list>
+                              </member>
+                           </obj>
+                        </list>
+                     </member>
+                  </obj>
+                  <obj class="CmLinkedList" name="focusPath" ID="1623956480">
+                     <int name="ownership" value="1"/>
+                     <list name="obj" type="obj">
+                        <obj class="CmVariant" ID="1623748944">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623748992">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623749088">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623749136">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623749184">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623745824">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623745536">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623956912">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623956624">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623960272">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="7"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623963872">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                        <obj class="CmVariant" ID="1623961376">
+                           <int name="type" value="1"/>
+                           <int name="lValue" value="0"/>
+                        </obj>
+                     </list>
+                  </obj>
+                  <member name="previewerConfig">
+                     <int name="activate" value="1"/>
+                     <int name="contextMode" value="0"/>
+                     <int name="autoplay" value="1"/>
+                     <int name="transportsync" value="0"/>
+                     <int name="cycle" value="0"/>
+                     <float name="commonpreviewvolume" value="0.78908658027648926"/>
+                     <member name="TrackPreset|Instrument">
+                     </member>
+                     <member name="TrackPreset|Midi">
+                     </member>
+                     <member name="VstPreset">
+                     </member>
+                  </member>
+                  <obj class="CmLinkedList" name="selectedMedia" ID="1623958880">
+                     <int name="ownership" value="1"/>
+                  </obj>
+               </member>
+               <int name="BypassTag" value="10004202"/>
+            </member>
+            <member name="Patcher">
+               <list name="Prev Output Connections" type="list">
+                  <item>
+                     <int name="Prev Output Speaker Type" value="1"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Prev Output Speaker Type" value="2"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+               <list name="Input Connections" type="list">
+                  <item>
+                     <int name="Input Speaker Type" value="1"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Input Speaker Type" value="2"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+            </member>
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
+            <int name="SlotType" value="-1"/>
+         </item>
+         <item>
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
+            <member name="Plugin">
+               <member name="Plugin UID">
+                  <string name="GUID" value="565354524E5453726368616E6E656C20" wide="true"/>
+               </member>
+               <string name="Plugin Name" value="RChannel Stereo" wide="true"/>
+               <int name="Audio Input Count" value="2"/>
+               <list name="Audio Input Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Sidechain Bus Id 0" value="4010953"/>
+               <int name="Audio Output Count" value="1"/>
+               <list name="Audio Output Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Event Input Count" value="0"/>
+               <int name="Event Output Count" value="0"/>
+               <bin name="audioComponent">
+						0000046C0000000300000001524E5453736574410000044C585073743C507265
+						7365744368756E6B584D4C547265652076657273696F6E3D2232223E0A093C50
+						7265736574204E616D653D22596F6164204E65766F202D204D616C6520566F63
+						616C222047656E65726963547970653D22524E4348223E0A09093C5072657365
+						744865616465723E0A0909093C506C7567696E4E616D653E524368616E6E656C
+						3C2F506C7567696E4E616D653E0A0909093C506C7567696E56657273696F6E3E
+						392E312E302E393C2F506C7567696E56657273696F6E3E0A0909093C41637469
+						766553657475703E53455455505F413C2F41637469766553657475703E0A0909
+						093C526561644F6E6C793E747275653C2F526561644F6E6C793E0A09093C2F50
+						72657365744865616465723E0A09093C4D657373616765546F5368656C6C2F3E
+						0A09093C507265736574446174612053657475703D2253455455505F41222053
+						657475704E616D653D22596F6164204E65766F202D204D616C6520566F63616C
+						223E0A0909093C506172616D657465727320547970653D225265616C576F726C
+						64223E31203320302031303320302E3930303030303030303030303030303032
+						2031203020332E323030303030303030303030303030322032393720312E3931
+						30303030303030303030303030310A31203020352E35203336343120322E3537
+						303030303030303030303030303320312031203420383035380A302E39303030
+						303030303030303030303030322031202A202A202A20302030203120300A3020
+						322037333320312030202A2030203020300A37333320312030202A203120332E
+						36303030303030303030303030303031203234302E39372031202D32322E3130
+						303030303030303030303030310A322E34362031342E31393939393939393939
+						39393939392031303030203633202D312035362E323239393939393939393939
+						393937203020312E3520310A2A202A20312030202D3830202D38302031333020
+						323530202A0A3C2F506172616D65746572733E0A09093C2F5072657365744461
+						74613E0A09093C507265736574446174612053657475703D2253455455505F42
+						223E0A0909093C506172616D657465727320547970653D225265616C576F726C
+						64223E302033203020363020302E393030303030303030303030303030303220
+						31203220302032353020310A3120302030203133323520312031203120302038
+						3030300A302E39303030303030303030303030303030322031202A202A202A20
+						302030203020300A3020322037333320312030202A2030203020300A37333320
+						312030202A203120332E36303030303030303030303030303031203234302E39
+						37203020300A312030203130303020363320302035362E323239393939393939
+						393939393937203020312E3520300A2A202A20312030202D3830202D38302031
+						333020323530202A0A3C2F506172616D65746572733E0A09093C2F5072657365
+						74446174613E0A093C2F5072657365743E0A3C2F5072657365744368756E6B58
+						4D4C547265653E0A600013833C4279706173732056657273696F6E3D22312E30
+						22204279706173733D2230222F3E0A
+               </bin>
+               <bin name="editController">
+               </bin>
+               <int name="Editor Width" value="273"/>
+               <int name="Editor Height" value="587"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="565354524E5453726368616E6E656C20-0"/>
+               <string name="Bay Program" value="Yoad Nevo - Marie Kvammen" wide="true"/>
+               <int name="BypassTag" value="10004202"/>
+            </member>
+            <member name="Patcher">
+               <list name="Prev Output Connections" type="list">
+                  <item>
+                     <int name="Prev Output Speaker Type" value="1"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Prev Output Speaker Type" value="2"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+               <list name="Input Connections" type="list">
+                  <item>
+                     <int name="Input Speaker Type" value="1"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Input Speaker Type" value="2"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+            </member>
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
+            <int name="SlotType" value="-1"/>
+         </item>
+         <item>
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
+            <member name="Plugin">
+               <member name="Plugin UID">
+                  <string name="GUID" value="56535446434853707569676368696C64" wide="true"/>
+               </member>
+               <string name="Plugin Name" value="PuigChild 670 Stereo" wide="true"/>
+               <int name="Audio Input Count" value="1"/>
+               <list name="Audio Input Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Audio Output Count" value="1"/>
+               <list name="Audio Output Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Event Input Count" value="0"/>
+               <int name="Event Output Count" value="0"/>
+               <bin name="audioComponent">
+						0000080000000003000000014643485373657441000007E0585073743C507265
+						7365744368756E6B584D4C547265652076657273696F6E3D2232223E0A093C50
+						7265736574204E616D653D22506F7020566F63616C222047656E657269635479
+						70653D2246434844223E0A09093C5072657365744865616465723E0A0909093C
+						506C7567696E4E616D653E507569674368696C643C2F506C7567696E4E616D65
+						3E0A0909093C506C7567696E56657273696F6E3E392E312E302E393C2F506C75
+						67696E56657273696F6E3E0A0909093C41637469766553657475703E53455455
+						505F413C2F41637469766553657475703E0A0909093C526561644F6E6C793E74
+						7275653C2F526561644F6E6C793E0A09093C2F5072657365744865616465723E
+						0A09093C4D657373616765546F5368656C6C2F3E0A09093C5072657365744461
+						74612053657475703D2253455455505F41222053657475704E616D653D22506F
+						7020566F63616C223E0A0909093C506172616D657465727320547970653D2252
+						65616C576F726C64223E3520362E353939393939393939393939393939362033
+						203220332E33393939393939393939393939393939202A202A202A203620362E
+						353939393939393939393939393939360A322E3520302030202A202A202A2032
+						202D333220312E3032360A302E38383730303030303030303030303030312030
+						20302E343834393939393939393939393939393920313220312030203420312E
+						3332303030303030303030303030303120310A3130203020302E323939393939
+						39393939393939393939392034203320302E3335303030303030303030303030
+						30303920302E303220313020352E303131393939393939393939393939360A31
+						3130303220302E3730303030303030303030303030303138202D31382E313939
+						39393939393939393939393920313020302E30303120312032363020312E3320
+						333533342E363939393939393939393939380A312030203430303030202D302E
+						3520302E3230303030303030303030303030303031203235302030203120300A
+						3020393039312E3739393939393939393939393320372E35203137203234202D
+						31332E383030303030303030303030303031202D31332E383030303030303030
+						3030303030312035312031303030360A30202D3938202D37372E373939393939
+						39393939393939383320363020312033302032303020302E3236303030303030
+						303030303030303031202D31322E310A313131323420302E3236303030303030
+						30303030303030303120312030203120302031203020310A312032352E363939
+						3939393939393939393939392036323820302E32353520312030202D382E3330
+						3030303030303030303030303037202D32312E36393939393939393939393939
+						393920300A2D382031352031343634302033302E383939393939393939393939
+						39393920312031203C2F506172616D65746572733E0A09093C2F507265736574
+						446174613E0A09093C507265736574446174612053657475703D225345545550
+						5F42222053657475704E616D653D22507569674368696C642044656661756C74
+						223E0A0909093C506172616D657465727320547970653D225265616C576F726C
+						64223E3820362E3539393939393939393939393939393620322E323030303030
+						30303030303030303032203020302E3330303030303030303030303030303034
+						202A202A202A203820362E353939393939393939393939393939360A322E3230
+						3030303030303030303030303032203020302E33303030303030303030303030
+						30303034202A202A202A2030202D32392E3520312E3032360A302E3838373030
+						303030303030303030303031203020302E343834393939393939393939393939
+						393920313220312030203420312E333230303030303030303030303030312031
+						0A3130203020302E32393939393939393939393939393939392034203320302E
+						333530303030303030303030303030303920302E303220313020352E30313139
+						3939393939393939393939360A3834393720302E363630303030303030303030
+						3030303033202D313720313020302E30303120312032363020312E3320333533
+						342E363939393939393939393939380A302E38373120322E3634303030303030
+						303030303030303120343030303020352E353939333937323038353038333830
+						32652D30313720302E3230343939393939393939393939393939203235302030
+						203120300A3020383837372E38393939393939393939393620372E3039393939
+						3939393939393939393936203132352032322E33303030303030303030303030
+						3031202D31332E383030303030303030303030303031202D31332E3830303030
+						303030303030303030312035312031303030360A30202D3938202D37372E3739
+						3939393939393939393939383320363020312033302032303020302E32363030
+						30303030303030303030303031202D31322E310A313131323420302E32363030
+						3030303030303030303030303120312030203120302031203020310A31203235
+						2E3639393939393939393939393939392036323820302E32353520312E303230
+						393939393939393939393939392030202D382E33303030303030303030303030
+						303037202D32302E31303030303030303030303030303120300A2D3820313520
+						31343634302033302E38393939393939393939393939393920312031203C2F50
+						6172616D65746572733E0A09093C2F507265736574446174613E0A093C2F5072
+						657365743E0A3C2F5072657365744368756E6B584D4C547265653E0A988C72FF
+						3C4279706173732056657273696F6E3D22312E3022204279706173733D223022
+						2F3E0A
+               </bin>
+               <bin name="editController">
+               </bin>
+               <int name="Editor Width" value="825"/>
+               <int name="Editor Height" value="464"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="56535446434853707569676368696C64-0"/>
+               <string name="Bay Program" value="" wide="true"/>
+               <int name="BypassTag" value="10004202"/>
+            </member>
+            <member name="Patcher">
+               <list name="Prev Output Connections" type="list">
+                  <item>
+                     <int name="Prev Output Speaker Type" value="1"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Prev Output Speaker Type" value="2"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+               <list name="Input Connections" type="list">
+                  <item>
+                     <int name="Input Speaker Type" value="1"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Input Speaker Type" value="2"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+            </member>
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
+            <int name="SlotType" value="-1"/>
+         </item>
+         <item>
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
+            <member name="Plugin">
+               <member name="Plugin UID">
+                  <string name="GUID" value="56535452445253766F63616C20726964" wide="true"/>
+               </member>
+               <string name="Plugin Name" value="Vocal Rider Stereo" wide="true"/>
+               <int name="Audio Input Count" value="2"/>
+               <list name="Audio Input Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Sidechain Bus Id 0" value="4011104"/>
+               <int name="Audio Output Count" value="1"/>
+               <list name="Audio Output Arrangement" type="list">
+                  <item>
+                     <list name="Type" type="int">
+                        <item value="1"/>
+                        <item value="2"/>
+                     </list>
+                  </item>
+               </list>
+               <int name="Event Input Count" value="0"/>
+               <int name="Event Output Count" value="0"/>
+               <bin name="audioComponent">
+						000004200000000300000001524452537365744100000400585073743C507265
+						7365744368756E6B584D4C547265652076657273696F6E3D2232223E0A093C50
+						7265736574204E616D653D224C6F756420566F63616C222047656E6572696354
+						7970653D2252494452223E0A09093C5072657365744865616465723E0A090909
+						3C506C7567696E4E616D653E566F63616C2052696465723C2F506C7567696E4E
+						616D653E0A0909093C506C7567696E56657273696F6E3E392E312E302E393C2F
+						506C7567696E56657273696F6E3E0A0909093C41637469766553657475703E53
+						455455505F413C2F41637469766553657475703E0A0909093C526561644F6E6C
+						793E747275653C2F526561644F6E6C793E0A09093C2F50726573657448656164
+						65723E0A09093C4D657373616765546F5368656C6C2F3E0A09093C5072657365
+						74446174612053657475703D2253455455505F41222053657475704E616D653D
+						224C6F756420566F63616C223E0A0909093C506172616D657465727320547970
+						653D225265616C576F726C64223E2D31302E3520352E35393939393939393939
+						393939393936202D322E3630303030303030303030303030303120362E303939
+						3939393939393939393939393620302E35353030303030303030303030303030
+						342031303030203020302E303120313030202D31382E31303030303030303030
+						30303030310A36353032202D36202D343220353020313030392035303031202D
+						3432203130342E393030303030303030303030303120323031340A3530303120
+						302E3130303030303030303030303030303031202A202A202A202A202A202A20
+						2A0A2A202A2032203120302E3731393939393939393939393939393937203132
+						303520313230352035302034392E3839393939393939393939393939390A2A20
+						353030202A202A202A203020302E3031202A203C2F506172616D65746572733E
+						0A09093C2F507265736574446174613E0A09093C507265736574446174612053
+						657475703D2253455455505F42223E0A0909093C506172616D65746572732054
+						7970653D225265616C576F726C64223E2D32312030202D36203620302E333530
+						30303030303030303030303030332031303030203020302E303120313030202D
+						31382E3130303030303030303030303030310A36353032202D36202D34322031
+						3020313030392035303031202D3432203130342E393030303030303030303030
+						303120323031340A353030312030202A202A202A202A202A202A202A0A2A202A
+						2030203120302E35203132303520313230352031302034392E38393939393939
+						39393939393939390A2A203530202A202A202A203020302E3031202A203C2F50
+						6172616D65746572733E0A09093C2F507265736574446174613E0A093C2F5072
+						657365743E0A3C2F5072657365744368756E6B584D4C547265653E0A31303030
+						3C4279706173732056657273696F6E3D22312E3022204279706173733D223022
+						2F3E0A
+               </bin>
+               <bin name="editController">
+               </bin>
+               <int name="Editor Width" value="320"/>
+               <int name="Editor Height" value="598"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="56535452445253766F63616C20726964-0"/>
+               <string name="Bay Program" value="" wide="true"/>
+               <int name="BypassTag" value="10004202"/>
+            </member>
+            <member name="Patcher">
+               <list name="Prev Output Connections" type="list">
+                  <item>
+                     <int name="Prev Output Speaker Type" value="1"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Prev Output Speaker Type" value="2"/>
+                     <list name="Prev Output Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+               <list name="Input Connections" type="list">
+                  <item>
+                     <int name="Input Speaker Type" value="1"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <int name="Input Speaker Type" value="2"/>
+                     <list name="Input Connection" type="list">
+                        <item>
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+            </member>
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
+            <int name="SlotType" value="-1"/>
+         </item>
+         <item>
+            <int name="State" value="0"/>
+            <int name="SlotType" value="-1"/>
+         </item>
+         <item>
+            <int name="State" value="0"/>
+            <int name="SlotType" value="-1"/>
+         </item>
+      </list>
+      <int name="SummingMode" value="1"/>
+   </member>
+</FxChainPreset>
