@@ -1,0 +1,1 @@
+InsertsFolder2FXChainPresets\bin\Release\InsertsFolder2FXChainPresets.exe "C:\Users\perivar\AppData\Roaming\Steinberg\Cubase 6_64\Presets\InsertsFolderPresets.pxml" "C:\Users\perivar\Documents\Steinberg\FX Chain Presets"
