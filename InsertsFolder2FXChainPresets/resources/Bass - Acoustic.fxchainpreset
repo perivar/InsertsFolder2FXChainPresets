@@ -3,49 +3,49 @@
    <member name="MediaBay">
       <list name="PAttr" type="obj">
          <obj class="StMedia::PStringIDMediaAttribute" ID="4130621632">
-            <string name="ID" value="MediaType" />
-            <int name="Type" value="8" />
-            <int name="Flags" value="2" />
-            <string name="String" value="FxChainPreset" wide="true" />
+            <string name="ID" value="MediaType"/>
+            <int name="Type" value="8"/>
+            <int name="Flags" value="2"/>
+            <string name="String" value="FxChainPreset" wide="true"/>
          </obj>
       </list>
    </member>
    <member name="Folder">
-      <int name="Bypass" value="0" />
-      <int name="SeparationPosition" value="6" />
+      <int name="Bypass" value="0"/>
+      <int name="SeparationPosition" value="6"/>
       <list name="Slot" type="list">
          <item>
-            <string name="Plugin isA" value="VstCtrlInternalEffect" />
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
             <member name="Plugin">
                <member name="Plugin UID">
-                  <string name="GUID" value="5653543DFB011576616C7665746F6E65" wide="true" />
+                  <string name="GUID" value="5653543DFB011576616C7665746F6E65" wide="true"/>
                </member>
-               <string name="Plugin Name" value="ValveTone_'62.64" wide="true" />
-               <int name="Audio Input Count" value="1" />
+               <string name="Plugin Name" value="ValveTone_'62.64" wide="true"/>
+               <int name="Audio Input Count" value="1"/>
                <list name="Audio Input Arrangement" type="list">
                   <item>
                      <list name="Type" type="int">
-                        <item value="1" />
-                        <item value="2" />
+                        <item value="1"/>
+                        <item value="2"/>
                      </list>
                   </item>
                </list>
-               <int name="Audio Output Count" value="1" />
+               <int name="Audio Output Count" value="1"/>
                <list name="Audio Output Arrangement" type="list">
                   <item>
                      <list name="Type" type="int">
-                        <item value="1" />
-                        <item value="2" />
+                        <item value="1"/>
+                        <item value="2"/>
                      </list>
                   </item>
                </list>
-               <int name="Event Input Count" value="1" />
+               <int name="Event Input Count" value="1"/>
                <list name="Event Input Name" type="string">
-                  <item value="Midi In" />
+                  <item value="Midi In"/>
                </list>
-               <int name="Event Output Count" value="1" />
+               <int name="Event Output Count" value="1"/>
                <list name="Event Output Name" type="string">
-                  <item value="Midi Out" />
+                  <item value="Midi Out"/>
                </list>
                <bin name="audioComponent">
 										5673745700000008000000010000000043636E4B000006144678426B00000002
@@ -99,90 +99,90 @@
 										0000000000000000000000003F0000003F3D5550000000000000000000000000
 										00000000000000003F000000
                            </bin>
-               <bin name="editController" />
-               <int name="Editor Width" value="520" />
-               <int name="Editor Height" value="420" />
-               <int name="Active" value="1" />
-               <string name="IDString" value="5653543DFB011576616C7665746F6E65-3" wide="true" />
-               <string name="Bay Program" value="" wide="true" />
-               <int name="BypassTag" value="10004202" />
+               <bin name="editController"></bin>
+               <int name="Editor Width" value="520"/>
+               <int name="Editor Height" value="420"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="5653543DFB011576616C7665746F6E65-3" wide="true"/>
+               <string name="Bay Program" value="" wide="true"/>
+               <int name="BypassTag" value="10004202"/>
             </member>
             <member name="Patcher">
                <list name="Prev Output Connections" type="list">
                   <item>
-                     <int name="Prev Output Speaker Type" value="1" />
+                     <int name="Prev Output Speaker Type" value="1"/>
                      <list name="Prev Output Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="1" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
                         </item>
                      </list>
                   </item>
                   <item>
-                     <int name="Prev Output Speaker Type" value="2" />
+                     <int name="Prev Output Speaker Type" value="2"/>
                      <list name="Prev Output Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="2" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
                         </item>
                      </list>
                   </item>
                </list>
                <list name="Input Connections" type="list">
                   <item>
-                     <int name="Input Speaker Type" value="1" />
+                     <int name="Input Speaker Type" value="1"/>
                      <list name="Input Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="1" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
                         </item>
                      </list>
                   </item>
                   <item>
-                     <int name="Input Speaker Type" value="2" />
+                     <int name="Input Speaker Type" value="2"/>
                      <list name="Input Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="2" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
                         </item>
                      </list>
                   </item>
                </list>
             </member>
-            <int name="WasEnableBeforeFreeze" value="0" />
-            <int name="State" value="1" />
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
          </item>
          <item>
-            <string name="Plugin isA" value="VstCtrlInternalEffect" />
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
             <member name="Plugin">
                <member name="Plugin UID">
-                  <string name="GUID" value="565354525136537265715F365F737465" wide="true" />
+                  <string name="GUID" value="565354525136537265715F365F737465" wide="true"/>
                </member>
-               <string name="Plugin Name" value="REQ_6_Stereo.64" wide="true" />
-               <int name="Audio Input Count" value="1" />
+               <string name="Plugin Name" value="REQ_6_Stereo.64" wide="true"/>
+               <int name="Audio Input Count" value="1"/>
                <list name="Audio Input Arrangement" type="list">
                   <item>
                      <list name="Type" type="int">
-                        <item value="1" />
-                        <item value="2" />
+                        <item value="1"/>
+                        <item value="2"/>
                      </list>
                   </item>
                </list>
-               <int name="Audio Output Count" value="1" />
+               <int name="Audio Output Count" value="1"/>
                <list name="Audio Output Arrangement" type="list">
                   <item>
                      <list name="Type" type="int">
-                        <item value="1" />
-                        <item value="2" />
+                        <item value="1"/>
+                        <item value="2"/>
                      </list>
                   </item>
                </list>
-               <int name="Event Input Count" value="0" />
-               <int name="Event Output Count" value="0" />
+               <int name="Event Input Count" value="0"/>
+               <int name="Event Output Count" value="0"/>
                <bin name="audioComponent">
 										5673745700000008000000010000000043636E4B000006DF4642436800000002
 										5251365300000001000000010000000000000000000000000000000000000000
@@ -241,90 +241,90 @@
 										3E0A09093C2F507265736574446174613E0A093C2F5072657365743E0A3C2F50
 										72657365744368756E6B584D4C547265653E0A00000000
                            </bin>
-               <bin name="editController" />
-               <int name="Editor Width" value="520" />
-               <int name="Editor Height" value="354" />
-               <int name="Active" value="1" />
-               <string name="IDString" value="5653545251365372657120362062616E-12" wide="true" />
-               <string name="Bay Program" value="" wide="true" />
-               <int name="BypassTag" value="10004202" />
+               <bin name="editController"></bin>
+               <int name="Editor Width" value="520"/>
+               <int name="Editor Height" value="354"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="5653545251365372657120362062616E-12" wide="true"/>
+               <string name="Bay Program" value="" wide="true"/>
+               <int name="BypassTag" value="10004202"/>
             </member>
             <member name="Patcher">
                <list name="Prev Output Connections" type="list">
                   <item>
-                     <int name="Prev Output Speaker Type" value="1" />
+                     <int name="Prev Output Speaker Type" value="1"/>
                      <list name="Prev Output Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="1" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
                         </item>
                      </list>
                   </item>
                   <item>
-                     <int name="Prev Output Speaker Type" value="2" />
+                     <int name="Prev Output Speaker Type" value="2"/>
                      <list name="Prev Output Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="2" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
                         </item>
                      </list>
                   </item>
                </list>
                <list name="Input Connections" type="list">
                   <item>
-                     <int name="Input Speaker Type" value="1" />
+                     <int name="Input Speaker Type" value="1"/>
                      <list name="Input Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="1" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
                         </item>
                      </list>
                   </item>
                   <item>
-                     <int name="Input Speaker Type" value="2" />
+                     <int name="Input Speaker Type" value="2"/>
                      <list name="Input Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="2" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
                         </item>
                      </list>
                   </item>
                </list>
             </member>
-            <int name="WasEnableBeforeFreeze" value="0" />
-            <int name="State" value="1" />
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
          </item>
          <item>
-            <string name="Plugin isA" value="VstCtrlInternalEffect" />
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
             <member name="Plugin">
                <member name="Plugin UID">
-                  <string name="GUID" value="5653545552435372636F6D7072657373" wide="true" />
+                  <string name="GUID" value="5653545552435372636F6D7072657373" wide="true"/>
                </member>
-               <string name="Plugin Name" value="RCompressor_Stereo.64" wide="true" />
-               <int name="Audio Input Count" value="1" />
+               <string name="Plugin Name" value="RCompressor_Stereo.64" wide="true"/>
+               <int name="Audio Input Count" value="1"/>
                <list name="Audio Input Arrangement" type="list">
                   <item>
                      <list name="Type" type="int">
-                        <item value="1" />
-                        <item value="2" />
+                        <item value="1"/>
+                        <item value="2"/>
                      </list>
                   </item>
                </list>
-               <int name="Audio Output Count" value="1" />
+               <int name="Audio Output Count" value="1"/>
                <list name="Audio Output Arrangement" type="list">
                   <item>
                      <list name="Type" type="int">
-                        <item value="1" />
-                        <item value="2" />
+                        <item value="1"/>
+                        <item value="2"/>
                      </list>
                   </item>
                </list>
-               <int name="Event Input Count" value="0" />
-               <int name="Event Output Count" value="0" />
+               <int name="Event Input Count" value="0"/>
+               <int name="Event Output Count" value="0"/>
                <bin name="audioComponent">
 										5673745700000008000000010000000043636E4B000004344642436800000002
 										5552435300000001000000010000000000000000000000000000000000000000
@@ -362,90 +362,90 @@
 										74446174613E0A093C2F5072657365743E0A3C2F5072657365744368756E6B58
 										4D4C547265653E0A05172BFF
                            </bin>
-               <bin name="editController" />
-               <int name="Editor Width" value="382" />
-               <int name="Editor Height" value="414" />
-               <int name="Active" value="1" />
-               <string name="IDString" value="5653545552435372636F6D7000000000-11" wide="true" />
-               <string name="Bay Program" value="" wide="true" />
-               <int name="BypassTag" value="10004202" />
+               <bin name="editController"></bin>
+               <int name="Editor Width" value="382"/>
+               <int name="Editor Height" value="414"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="5653545552435372636F6D7000000000-11" wide="true"/>
+               <string name="Bay Program" value="" wide="true"/>
+               <int name="BypassTag" value="10004202"/>
             </member>
             <member name="Patcher">
                <list name="Prev Output Connections" type="list">
                   <item>
-                     <int name="Prev Output Speaker Type" value="1" />
+                     <int name="Prev Output Speaker Type" value="1"/>
                      <list name="Prev Output Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="1" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
                         </item>
                      </list>
                   </item>
                   <item>
-                     <int name="Prev Output Speaker Type" value="2" />
+                     <int name="Prev Output Speaker Type" value="2"/>
                      <list name="Prev Output Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="2" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
                         </item>
                      </list>
                   </item>
                </list>
                <list name="Input Connections" type="list">
                   <item>
-                     <int name="Input Speaker Type" value="1" />
+                     <int name="Input Speaker Type" value="1"/>
                      <list name="Input Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="1" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
                         </item>
                      </list>
                   </item>
                   <item>
-                     <int name="Input Speaker Type" value="2" />
+                     <int name="Input Speaker Type" value="2"/>
                      <list name="Input Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="2" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
                         </item>
                      </list>
                   </item>
                </list>
             </member>
-            <int name="WasEnableBeforeFreeze" value="0" />
-            <int name="State" value="1" />
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
          </item>
          <item>
-            <string name="Plugin isA" value="VstCtrlInternalEffect" />
+            <string name="Plugin isA" value="VstCtrlInternalEffect"/>
             <member name="Plugin">
                <member name="Plugin UID">
-                  <string name="GUID" value="565354524E425372626173735F737465" wide="true" />
+                  <string name="GUID" value="565354524E425372626173735F737465" wide="true"/>
                </member>
-               <string name="Plugin Name" value="RBass_Stereo.64" wide="true" />
-               <int name="Audio Input Count" value="1" />
+               <string name="Plugin Name" value="RBass_Stereo.64" wide="true"/>
+               <int name="Audio Input Count" value="1"/>
                <list name="Audio Input Arrangement" type="list">
                   <item>
                      <list name="Type" type="int">
-                        <item value="1" />
-                        <item value="2" />
+                        <item value="1"/>
+                        <item value="2"/>
                      </list>
                   </item>
                </list>
-               <int name="Audio Output Count" value="1" />
+               <int name="Audio Output Count" value="1"/>
                <list name="Audio Output Arrangement" type="list">
                   <item>
                      <list name="Type" type="int">
-                        <item value="1" />
-                        <item value="2" />
+                        <item value="1"/>
+                        <item value="2"/>
                      </list>
                   </item>
                </list>
-               <int name="Event Input Count" value="0" />
-               <int name="Event Output Count" value="0" />
+               <int name="Event Input Count" value="0"/>
+               <int name="Event Output Count" value="0"/>
                <bin name="audioComponent">
 										5673745700000008000000010000000043636E4B0000037E4642436800000002
 										524E425300000001000000010000000000000000000000000000000000000000
@@ -477,76 +477,76 @@
 										0A09093C2F507265736574446174613E0A093C2F5072657365743E0A3C2F5072
 										657365744368756E6B584D4C547265653E0A00000000
                            </bin>
-               <bin name="editController" />
-               <int name="Editor Width" value="355" />
-               <int name="Editor Height" value="384" />
-               <int name="Active" value="1" />
-               <string name="IDString" value="565354524E4253726261737300000000-0" wide="true" />
-               <string name="Bay Program" value="" wide="true" />
-               <int name="BypassTag" value="10004202" />
+               <bin name="editController"></bin>
+               <int name="Editor Width" value="355"/>
+               <int name="Editor Height" value="384"/>
+               <int name="Active" value="1"/>
+               <string name="IDString" value="565354524E4253726261737300000000-0" wide="true"/>
+               <string name="Bay Program" value="" wide="true"/>
+               <int name="BypassTag" value="10004202"/>
             </member>
             <member name="Patcher">
                <list name="Prev Output Connections" type="list">
                   <item>
-                     <int name="Prev Output Speaker Type" value="1" />
+                     <int name="Prev Output Speaker Type" value="1"/>
                      <list name="Prev Output Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="1" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
                         </item>
                      </list>
                   </item>
                   <item>
-                     <int name="Prev Output Speaker Type" value="2" />
+                     <int name="Prev Output Speaker Type" value="2"/>
                      <list name="Prev Output Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="2" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
                         </item>
                      </list>
                   </item>
                </list>
                <list name="Input Connections" type="list">
                   <item>
-                     <int name="Input Speaker Type" value="1" />
+                     <int name="Input Speaker Type" value="1"/>
                      <list name="Input Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="1" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="1"/>
                         </item>
                      </list>
                   </item>
                   <item>
-                     <int name="Input Speaker Type" value="2" />
+                     <int name="Input Speaker Type" value="2"/>
                      <list name="Input Connection" type="list">
                         <item>
-                           <int name="ID" value="0" />
-                           <int name="Arrangement Index" value="0" />
-                           <int name="Speaker Type" value="2" />
+                           <int name="ID" value="0"/>
+                           <int name="Arrangement Index" value="0"/>
+                           <int name="Speaker Type" value="2"/>
                         </item>
                      </list>
                   </item>
                </list>
             </member>
-            <int name="WasEnableBeforeFreeze" value="0" />
-            <int name="State" value="1" />
+            <int name="WasEnableBeforeFreeze" value="0"/>
+            <int name="State" value="1"/>
          </item>
          <item>
-            <int name="State" value="0" />
+            <int name="State" value="0"/>
          </item>
          <item>
-            <int name="State" value="0" />
+            <int name="State" value="0"/>
          </item>
          <item>
-            <int name="State" value="0" />
+            <int name="State" value="0"/>
          </item>
          <item>
-            <int name="State" value="0" />
+            <int name="State" value="0"/>
          </item>
       </list>
-      <int name="SummingMode" value="1" />
+      <int name="SummingMode" value="1"/>
    </member>
 </FxChainPreset>

@@ -1,15 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<FxChainPreset>
-   <member name="MediaBay">
-      <list name="PAttr" type="obj">
-         <obj class="StMedia::PStringIDMediaAttribute" ID="4130621633">
-            <string name="ID" value="MediaType"/>
-            <int name="Type" value="8"/>
-            <int name="Flags" value="2"/>
-            <string name="String" value="FxChainPreset" wide="true"/>
-         </obj>
-      </list>
-   </member>
                <member name="Folder">
                   <int name="Bypass" value="0"/>
                   <int name="SeparationPosition" value="6"/>
@@ -553,4 +541,3 @@
                   </list>
                   <int name="SummingMode" value="1"/>
                </member>
-</FxChainPreset>

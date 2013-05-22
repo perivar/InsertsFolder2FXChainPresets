@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 using System.IO;
@@ -10,7 +11,7 @@ namespace InsertsFolder2FXChainPresets
 {
 	class Program
 	{
-		public static string VERSION = "1.0.1";
+		public static string VERSION = "1.0.2";
 		
 		public static void Main(string[] args)
 		{
@@ -127,6 +128,17 @@ namespace InsertsFolder2FXChainPresets
 						outputFileName = StringUtils.MakeValidFileName(presetName) + ".fxchainpreset";
 						outputFileName = outputDirectoryPath + Path.DirectorySeparatorChar + outputFileName;
 						
+						// force explicit tag close for editController
+						XElement document = fxChainXmlDoc.GetXElement();						
+						foreach (XElement childElement in
+						         from x in document.DescendantNodes().OfType<XElement>()
+						         where ( x.Attribute("name") != null 
+						                && x.Attribute("name").Value == "editController" 
+						                && x.IsEmpty)
+						         select x)
+						{
+							childElement.Value = string.Empty;
+						}
 						//fxChainXmlDoc.Save(outputFileName);
 						
 						#region Write Steinberg XML format
@@ -134,12 +146,12 @@ namespace InsertsFolder2FXChainPresets
 						settings.Encoding = Encoding.UTF8;
 						settings.Indent = true;
 						settings.IndentChars = ("   ");
-						settings.NewLineChars = "\r\n";
-						settings.NewLineHandling = NewLineHandling.Replace;
+						//settings.NewLineChars = "\r\n";
+						//settings.NewLineHandling = NewLineHandling.Replace;
 						
 						StringBuilder stringBuilder = new StringBuilder();
 						using (XmlWriter writer = XmlWriter.Create(stringBuilder, settings)) {
-							fxChainXmlDoc.Save(writer);
+							document.Save(writer);
 						}
 						
 						// ugly way to remove whitespace in self closing tags when writing xml document
