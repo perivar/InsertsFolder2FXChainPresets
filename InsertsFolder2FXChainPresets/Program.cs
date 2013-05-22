@@ -9,7 +9,7 @@ namespace InsertsFolder2FXChainPresets
 {
 	class Program
 	{
-		public static string VERSION = "1.0.0";
+		public static string VERSION = "1.0.1";
 		
 		public static void Main(string[] args)
 		{
@@ -125,15 +125,18 @@ namespace InsertsFolder2FXChainPresets
 						
 						outputFileName = StringUtils.MakeValidFileName(presetName) + ".fxchainpreset";
 						outputFileName = outputDirectoryPath + Path.DirectorySeparatorChar + outputFileName;
-
-						fxChainXmlDoc.Save(outputFileName);
-						/*
-					// This does not write utf-8 ?
-					XmlTextWriter xmlWriter = new XmlTextWriter(strFileName, null);
-					xmlWriter.Formatting = Formatting.Indented;
-					xmlWriter.Indentation = 3;
-					newXmlDoc.Save(xmlWriter);
-						 */
+						
+						// This does not write utf-8 ?
+						XmlWriterSettings settings = new XmlWriterSettings();
+						settings.Indent = true;
+						settings.IndentChars = ("   ");
+						//settings.NewLineChars = "\r\n";
+						//settings.NewLineHandling = NewLineHandling.Replace;
+						using (XmlWriter writer = XmlWriter.Create(outputFileName, settings)) {
+							fxChainXmlDoc.Save(writer);
+						}						
+						//fxChainXmlDoc.Save(outputFileName);
+						
 						Console.WriteLine("Saving {0} ...", outputFileName);
 					}
 					return true;
