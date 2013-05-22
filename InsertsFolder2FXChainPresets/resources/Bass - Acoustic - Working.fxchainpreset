@@ -3,10 +3,10 @@
    <member name="MediaBay">
       <list name="PAttr" type="obj">
          <obj class="StMedia::PStringIDMediaAttribute" ID="4130621632">
-            <string name="ID" value="MediaType" />
-            <int name="Type" value="8" />
-            <int name="Flags" value="2" />
-            <string name="String" value="FxChainPreset" wide="true" />
+            <string name="ID" value="MediaType"/>
+            <int name="Type" value="8"/>
+            <int name="Flags" value="2"/>
+            <string name="String" value="FxChainPreset" wide="true"/>
          </obj>
       </list>
    </member>

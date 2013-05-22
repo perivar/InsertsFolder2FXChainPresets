@@ -2,6 +2,7 @@
 using System.Xml;
 using System.Xml.Linq;
 using System.IO;
+using System.Text;
 
 using CommonUtils;
 
@@ -126,16 +127,33 @@ namespace InsertsFolder2FXChainPresets
 						outputFileName = StringUtils.MakeValidFileName(presetName) + ".fxchainpreset";
 						outputFileName = outputDirectoryPath + Path.DirectorySeparatorChar + outputFileName;
 						
-						// This does not write utf-8 ?
+						//fxChainXmlDoc.Save(outputFileName);
+						
+						#region Write Steinberg XML format
 						XmlWriterSettings settings = new XmlWriterSettings();
+						settings.Encoding = Encoding.UTF8;
 						settings.Indent = true;
 						settings.IndentChars = ("   ");
-						//settings.NewLineChars = "\r\n";
-						//settings.NewLineHandling = NewLineHandling.Replace;
-						using (XmlWriter writer = XmlWriter.Create(outputFileName, settings)) {
+						settings.NewLineChars = "\r\n";
+						settings.NewLineHandling = NewLineHandling.Replace;
+						
+						StringBuilder stringBuilder = new StringBuilder();
+						using (XmlWriter writer = XmlWriter.Create(stringBuilder, settings)) {
 							fxChainXmlDoc.Save(writer);
-						}						
-						//fxChainXmlDoc.Save(outputFileName);
+						}
+						
+						// ugly way to remove whitespace in self closing tags when writing xml document
+						stringBuilder.Replace(" />", "/>");
+						
+						// change encoding to utf-8
+						stringBuilder.Replace(Encoding.Unicode.WebName, Encoding.UTF8.WebName, 0, 56);
+						
+						// save to file
+						using(TextWriter sw = new StreamWriter(outputFileName, false, Encoding.UTF8)) //Set encoding
+						{
+							sw.Write(stringBuilder.ToString());
+						}
+						#endregion
 						
 						Console.WriteLine("Saving {0} ...", outputFileName);
 					}
