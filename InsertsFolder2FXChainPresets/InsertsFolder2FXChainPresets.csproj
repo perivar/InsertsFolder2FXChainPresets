@@ -32,7 +32,7 @@
     <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <StartAction>Project</StartAction>
-    <StartArguments>"C:\Users\perivar.nerseth\Documents\My Projects\InsertsFolder2FXChainPresets\InsertsFolder2FXChainPresets\resources\InsertsFolderPresets.pxml" "C:\TEMP"</StartArguments>
+    <StartArguments>"C:\Users\perivar\Documents\My Projects\InsertsFolder2FXChainPresets\InsertsFolder2FXChainPresets\resources\InsertsFolderPresets.pxml" "C:\TEMP"</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <OutputPath>bin\Release\</OutputPath>
