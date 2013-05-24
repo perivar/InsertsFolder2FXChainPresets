@@ -13,7 +13,7 @@ namespace InsertsFolder2FXChainPresets
 {
 	class Program
 	{
-		public static string VERSION = "1.0.3";
+		public static string VERSION = "1.0.4";
 		
 		public static void Main(string[] args)
 		{
@@ -201,7 +201,7 @@ namespace InsertsFolder2FXChainPresets
 				if (Directory.Exists(outputDirectoryPath)) {
 					XDocument folderPresetsXmlDoc = XDocument.Load(folderPresetsFilePath, LoadOptions.PreserveWhitespace);
 
-					// Split
+					// Split XML using XPath
 					IEnumerable<XElement> xnList = folderPresetsXmlDoc.XPathSelectElements("/Presets/rootObjects/root/list/item");
 					foreach (XElement xn in xnList)
 					{
@@ -214,7 +214,7 @@ namespace InsertsFolder2FXChainPresets
 						// Create the XmlDocument with default content
 						fxChainXmlDoc = new XDocument(new XDeclaration("1.0", "utf-8", null));
 						
-						// Use Linq XML (XElement) because they are easier to work with
+						// Use Linq XML (XElement) because it is easier to work with
 						XElement fxChainNode = new XElement("FxChainPreset");
 						fxChainXmlDoc.Add(fxChainNode);
 						
@@ -229,9 +229,12 @@ namespace InsertsFolder2FXChainPresets
 						                                );
 						mediaBayNode.Add(listNode);
 
+						// generate id
+						//string objId = 4130621632;
+						string objId = GenerateNumber();
 						XElement objNode = new XElement("obj",
 						                                new XAttribute("class", "StMedia::PStringIDMediaAttribute"),
-						                                new XAttribute("ID", "4130621632")
+						                                new XAttribute("ID", objId)
 						                               );
 						listNode.Add(objNode);
 						
@@ -279,6 +282,18 @@ namespace InsertsFolder2FXChainPresets
 				Console.WriteLine("Input File not found! (\"{0}\")", folderPresetsFilePath);
 			}
 			return false;
+		}
+		
+		public static string GenerateNumber()
+		{
+			Random random = new Random();
+			string r = "";
+			int i;
+			for (i = 1; i < 11; i++)
+			{
+				r += random.Next(0, 9).ToString();
+			}
+			return r;
 		}
 	}
 }
