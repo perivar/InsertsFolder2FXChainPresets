@@ -43,10 +43,10 @@ namespace InsertsFolder2FXChainPresets
 			Console.WriteLine("------------------------------------------------------");
 			Console.WriteLine("Copyright (C) 2012-2013 Per Ivar Nerseth.");
 			Console.WriteLine();
-			Console.WriteLine("Usage: FindSimilar.exe <full path to InsertsFolderPresets.pxml> <full path to output directory>");
+			Console.WriteLine("Usage: InsertsFolder2FXChainPresets.exe <full path to InsertsFolderPresets.pxml> <full path to output directory>");
 			Console.WriteLine();
 			Console.WriteLine("Example:");
-			Console.WriteLine("FindSimilar.exe \"C:\\Users\\<username>\\AppData\\Roaming\\Steinberg\\Cubase 6_64\\Presets\\InsertsFolderPresets.pxml\" \"C:\\Users\\<username>\\Documents\\Steinberg\\FX Chain Presets\"");
+			Console.WriteLine("InsertsFolder2FXChainPresets.exe \"C:\\Users\\<username>\\AppData\\Roaming\\Steinberg\\Cubase 6_64\\Presets\\InsertsFolderPresets.pxml\" \"C:\\Users\\<username>\\Documents\\Steinberg\\FX Chain Presets\"");
 			Console.WriteLine();
 		}
 		
